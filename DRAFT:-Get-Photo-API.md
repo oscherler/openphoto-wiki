@@ -18,6 +18,7 @@ Open Photo API / Get Photo
 <a name="purpose"></a>
 ### Purpose of the Get Photo API
 
+This API is used to download a new photo for a user.
 
 ----------------------------------------
 
