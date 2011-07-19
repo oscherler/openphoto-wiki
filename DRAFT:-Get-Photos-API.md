@@ -18,7 +18,7 @@ Open Photo API / Get Photos
 <a name="purpose"></a>
 ### Purpose of the Get Photos API
 
-This API is used to upload new photos for a user.
+This API is used to download new photos for a user.
 
 ----------------------------------------
 
