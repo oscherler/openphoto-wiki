@@ -57,6 +57,39 @@ _Authentication: optional_
     );
     curl_exec($ch);
 
+##### iOS
+
+     - (void)searchPhotos{  
+        // create the url to connect to OpenPhoto
+        NSString *urlString = @"http://current.openphoto.me/photos/pageSize-25.json";
+        NSURL *url = [NSURL URLWithString:urlString];
+    
+        responseData = [[NSMutableData data] retain];
+        NSURLRequest *request = [[NSURLRequest alloc] initWithURL: url];
+	[[NSURLConnection alloc] initWithRequest:request delegate:self];  
+    }
+
+    - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+	[responseData setLength:0];
+    }
+
+    - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+	[responseData appendData:data];
+    }
+
+    - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+	NSLog(@"Connection failed: %@", [error description]);
+    }
+
+    - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+      [connection release];
+      NSString *jsonString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+      [responseData release];
+    
+      NSDictionary *results =  [jsonString JSONValue];
+      NSArray *photos = [results objectForKey:@"result"] ;
+      NSMutableArray *mockPhotos = [[NSMutableArray alloc] init];
+    }
 ----------------------------------------
 
 <a name="response"></a>
