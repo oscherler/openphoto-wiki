@@ -1,4 +1,4 @@
-# These are examples for the Hello Word API
+#Get HelloWorld API
 
 ##For iOS
 Project: [[https://github.com/patricksan/iphone-app-connection-openphoto]]
