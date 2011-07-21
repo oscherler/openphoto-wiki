@@ -29,7 +29,7 @@ There are also a few optional but recommended packages and modules.
 
 ### Installing OpenPhoto
 
-Download and install the source code. We recommend =/var/www/yourdomain.com= but you can use any directory you'd like.
+Download and install the source code. We recommend `/var/www/yourdomain.com` but you can use any directory you'd like.
 
 #### Using git clone
 
@@ -48,11 +48,11 @@ Download and install the source code. We recommend =/var/www/yourdomain.com= but
 
 ### Setting up Apache
 
-You'll need to copy the sample virtual host configuration file from the source to =/etc/apache2/sites-enabled=.
+You'll need to copy the sample virtual host configuration file from the source to `/etc/apache2/sites-enabled`.
 
     cp /var/www/yourdomain.com/src/configs/openphoto-vhost.conf /etc/apache2/sites-enabled/
 
-Now you'll need to replace instances of =/path/to/openphoto/html/directory= with =/var/www/yourdomain.com/src/html= or wherever you placed the code.
+Now you'll need to replace instances of `/path/to/openphoto/html/directory` with `/var/www/yourdomain.com/src/html` or wherever you placed the code.
 
     vi /etc/apache2/sites-enabled/openphoto-vhost.conf
 
