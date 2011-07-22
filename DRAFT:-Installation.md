@@ -9,11 +9,14 @@ This is a description how to install the OpenPhoto in a linux ubuntu server.
 
 ### Prerequisites
 
+#### Cloud Accounts
+
 Before setting up your server you'll need to make sure you have your cloud accounts set up. If you're using Amazon then make sure you've enabled both S3 and SimpleDb.
 
 * http://aws.amazon.com/simpledb/
 * http://aws.amazon.com/s3/
 
+#### Server Packages and Modules
 Once you've confirmed that your cloud account is setup you can get started on your server. For that you'll need to have _Apache_, _PHP_ and _curl_ installed with a few modules.
 
     apt-get install apache2
