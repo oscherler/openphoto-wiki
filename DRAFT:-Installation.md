@@ -56,6 +56,8 @@ Download and install the source code. We recommend `/var/www/yourdomain.com` but
 
 ### Setting up Apache and PHP
 
+#### Apache
+
 You'll need to copy the sample virtual host configuration file from the source to `/etc/apache2/sites-enabled`.
 
     cp /var/www/yourdomain.com/src/configs/openphoto-vhost.conf /etc/apache2/sites-enabled/
@@ -63,6 +65,8 @@ You'll need to copy the sample virtual host configuration file from the source t
 Now you'll need to replace instances of `/path/to/openphoto/html/directory` with `/var/www/yourdomain.com/src/html` or wherever you placed the code.
 
     vi /etc/apache2/sites-enabled/openphoto-vhost.conf
+
+### PHP
 
 You should also verify that your `php.ini` file has a few important values set correctly.
 
@@ -78,13 +82,12 @@ Now you're ready to restart apache and visit the site in your browser.
 
     /etc/init.d/apache2 restart
 
-Go to your domain or hostname and you'll see the setup screen.
+### Launching your OpenPhoto site
 
- * http://yourdomain.com/
+Now you're ready to launch your OpenPhoto site. Point your browser to your host and you'll be taken to a setup screen. You'll need your cloud account credentials to continue.
 
-* Add Amazon credentials
- * Fill Amazon Access Key ID
- * Fill Amazon Secret Access Key
+Once you complete the 3 steps your site will be up and running and you'll be redirected there. The _setup_ screen won't show up anymore. If for any reason you want to go through the setup again you will need to delete the generated config file and refresh your browser.
 
-* Press, "Continue to Step 2"
+    rm /var/www/yourdomain.com/src/configs/generated/settings.ini
 
+**ENJOY!**
