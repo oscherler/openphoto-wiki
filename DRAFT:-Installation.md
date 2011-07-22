@@ -46,7 +46,7 @@ Download and install the source code. We recommend `/var/www/yourdomain.com` but
 
 ----------------------------------------
 
-### Setting up Apache
+### Setting up Apache and PHP
 
 You'll need to copy the sample virtual host configuration file from the source to `/etc/apache2/sites-enabled`.
 
@@ -55,6 +55,16 @@ You'll need to copy the sample virtual host configuration file from the source t
 Now you'll need to replace instances of `/path/to/openphoto/html/directory` with `/var/www/yourdomain.com/src/html` or wherever you placed the code.
 
     vi /etc/apache2/sites-enabled/openphoto-vhost.conf
+
+You should also verify that your `php.ini` file has a few important values set correctly.
+
+    vi /etc/php5/apache2/php.ini
+
+Search for the following values and make sure they're correct.
+
+    file_uploads = On
+    upload_max_filesize = 16M
+    post_max_size = 16M
 
 Now you're ready to restart apache and visit the site in your browser.
 
