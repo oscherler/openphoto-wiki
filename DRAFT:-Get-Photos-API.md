@@ -64,7 +64,7 @@ _Authentication: optional_
         NSString *urlString = @"http://current.openphoto.me/photos/pageSize-25.json";
         NSURL *url = [NSURL URLWithString:urlString];
     
-        responseData = [[NSMutableData data] retain];
+        responseData = [[NSMutableData alloc] init];
         NSURLRequest *request = [[NSURLRequest alloc] initWithURL: url];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];  
     }
@@ -78,7 +78,7 @@ _Authentication: optional_
     }
 
     - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-	NSLog(@"Connection failed: %@", [error description]);
+	NSLog(@"Connection failed: %@", error);
     }
 
     - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
@@ -87,8 +87,8 @@ _Authentication: optional_
       [responseData release];
     
       NSDictionary *results =  [jsonString JSONValue];
+      [jsonString release];
       NSArray *photos = [results objectForKey:@"result"] ;
-      NSMutableArray *mockPhotos = [[NSMutableArray alloc] init];
     }
 ----------------------------------------
 
