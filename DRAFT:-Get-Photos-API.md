@@ -27,7 +27,7 @@ This API is used to download new photos for a user.
 
 _Authentication: optional_
 
-    GET /photos.json
+    GET /photos/list.json
 
 <a name="parameters"></a>
 ### Parameters
@@ -42,6 +42,10 @@ _Authentication: optional_
 
 <a name="example-curl"></a>
 #### Command line curl
+
+    curl http://jmathai.openphoto.me/photos/list.json
+
+#### Posting a photo
 
     curl -F 'photo=@/path/to/photo.jpg' -F 'tags=dog,cat' http://jmathai.openphoto.me/photo/upload.json
     curl -F 'photo=base64_encoded_string_representation_of_photo' -F 'title=My first day at work' http://jmathai.openphoto.me/photo/upload.json
