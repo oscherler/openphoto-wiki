@@ -1,4 +1,4 @@
-Contributing to the Web and API components of The OpenPhoto Project
+Contributing to the Web and API components
 =======================
 
 ## Up and contributing in under 5 minutes
