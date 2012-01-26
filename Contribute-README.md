@@ -21,7 +21,7 @@ Here's a full list of ways to contact us.
 * <a href="http://www.facebook.com/OpenPhoto">Like us on Facebook</a>
 
 <a name="developers"></a>
-### Developers
+### Developers and Designers
 
 There's a lot of engineering goodness to be had here. We've got code written in HTML, CSS, JavaScript, PHP, Ruby, Python, Java and Objective-C. If you're interested helping out with a specific part of OpenPhoto then fork the repository and send us some pull requests. If you don't know exactly where to begin then contact us and we're more than happy to help you get started.
 
