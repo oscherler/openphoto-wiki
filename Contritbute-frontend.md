@@ -47,7 +47,7 @@ Once you've made your change and verified it does what it should it's time to ma
     OK, but incomplete or skipped tests!
     Tests: 311, Assertions: 661, Incomplete: 4.
 
-Those `I`s are okay but you shouldn't see an `E`s or `F`s and definitely look for the _OK_ message at the end. If all the tests pass then you're good to go and can commit it.
+Those `I`s are okay but you shouldn't see any `E`s or `F`s and definitely look for the _OK_ message at the end. If all the tests pass then you're good to go and can commit it.
 
 ## Committing your code
 
