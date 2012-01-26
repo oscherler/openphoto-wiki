@@ -3,7 +3,7 @@ Contributing to The OpenPhoto Project
 
 ### There's a spot for everyone to be a part of something BIG
 
-If you wanted to contribute to The OpenPhoto Project the good news is there's probably a place where we could use your help. Developers, designers, copywriters, community managers, translators and more.
+If you wanted to contribute to The OpenPhoto Project the good news is there's probably a place where we could use your help. <a href="#developers">Developers</a>, <a href="#developers">designers</a>, <a href="#copywriters">copywriters</a>, <a href="#community">community managers</a>, <a href="#translators">translators</a> and more.
 
 It's easy to get in touch with us. Many of us hang out in #openphoto on Freenode. Don't hesitate to chat come and <a href="http://webchat.freenode.net/">chat with us</a>. We're happy to answer any questions you might have.
 
