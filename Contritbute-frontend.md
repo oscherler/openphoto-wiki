@@ -45,14 +45,14 @@ Once you've made your change and verified it does what it should it's time to ma
     OK, but incomplete or skipped tests!
     Tests: 311, Assertions: 661, Incomplete: 4.
 
-Those _I_s are okay but you shouldn't see an _E_s or _F_s and definitely look for the _OK_ message at the end. If all the tests pass then you're good to go and can commit it.
+Those `I`s are okay but you shouldn't see an `E`s or `F`s and definitely look for the _OK_ message at the end. If all the tests pass then you're good to go and can commit it.
 
 ## Committing your code
 
 When committing your code it's important to reference the GitHub issue you're fixing. You can do it by adding a _#_ followed by the issue number.
 
     # To simply reference an issue with a commit do this
-    git commit -m 'Fixing the most annoying bug ever. #123'
+    git commit -m 'Addressing the foobar component but not yet finished. #123'
     
     # To commit and close an issue do this
     git commit -m 'Fixing the most annoying bug ever. Closes #123'
@@ -66,3 +66,7 @@ Be descriptive, it helps a ton. Once you've committed your code it's time to pus
 To get your change merged into the official OpenPhoto branch you should submit a pull request. <a href="http://help.github.com/send-pull-requests/"GitHub's tutorial</a> is better than anything we could do so we'll link to it.
 
 It makes everyone's life easier if you can remember to issue the pull request to OpenPhoto's development. If you forget, no big deal. The important thing is we get your change and your awesomeness can be merged into everyone else's awesomeness.
+
+## Help! I'm stuck and have questions
+
+If you have questions we're always around to help. We've got several contact options listed on the <a href="http://theopenphotoproject.org/contribute">contribute</a> page.
