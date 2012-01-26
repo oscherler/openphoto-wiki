@@ -1,7 +1,9 @@
 Contributing to the Web and API components of The OpenPhoto Project
 =======================
 
-## The technical laundry list of things you'll need to start
+## Up and contributing in under 5 minutes
+
+So what do you need to start contributing?
 
 A computer! Once you've secured one of those all you need is a Github account. It helps to have a locally installed version of the frontend repository to test your changes. We've got <a href="http://theopenphotoproject.org/documentation">lots of guides</a> to help you get started. If you're updating any of the PHP code you should get PHPUnit as well.
 
