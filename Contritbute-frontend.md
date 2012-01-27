@@ -67,7 +67,7 @@ Be descriptive! It helps a ton. Once you've committed your code it's time to pus
 
 ## Getting your change into the OpenPhoto branch
 
-To get your change merged into the official OpenPhoto branch you should submit a pull request. <a href="http://help.github.com/send-pull-requests/"GitHub's tutorial</a> is better than anything we could do, so we'll link to it.
+To get your change merged into the official OpenPhoto branch you should submit a pull request. <a href="http://help.github.com/send-pull-requests/">GitHub's tutorial</a> is better than anything we could do, so we'll link to it.
 
 It makes everyone's life easier if you can remember to issue the pull request to OpenPhoto's development. If you forget, no big deal! The important thing is we get your change! It is then that your awesomeness can be merged into everyone else's awesomeness.
 
