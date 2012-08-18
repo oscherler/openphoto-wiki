@@ -27,10 +27,10 @@ Now that you've got the following...
 
 We've added a _Beginner_ label to issues that don't touch some of the more sensitive parts of the code. We've additionally added _CSS_, _JavaScript_, and _PHP_ labels, so you can narrow it down to exactly what you're interested in.
 
-* <a href="https://github.com/openphoto/frontend/issues?labels=Beginner&sort=created&direction=desc&state=open&page=1">All Beginner issues</a>
-* <a href="https://github.com/openphoto/frontend/issues?labels=Beginner%2CCSS&sort=created&direction=desc&state=open&page=1">Beginner + CSS issues</a>
-* <a href="https://github.com/openphoto/frontend/issues?labels=Beginner%2CJavaScript&sort=created&direction=desc&state=open&page=1">Beginner + JavaScript issues</a>
-* <a href="https://github.com/openphoto/frontend/issues?labels=Beginner%2CPHP&sort=created&direction=desc&state=open&page=1">Beginner + PHP issues</a>
+* <a href="https://github.com/photo/frontend/issues?labels=Beginner&sort=created&direction=desc&state=open&page=1">All Beginner issues</a>
+* <a href="https://github.com/photo/frontend/issues?labels=Beginner%2CCSS&sort=created&direction=desc&state=open&page=1">Beginner + CSS issues</a>
+* <a href="https://github.com/photo/frontend/issues?labels=Beginner%2CJavaScript&sort=created&direction=desc&state=open&page=1">Beginner + JavaScript issues</a>
+* <a href="https://github.com/photo/frontend/issues?labels=Beginner%2CPHP&sort=created&direction=desc&state=open&page=1">Beginner + PHP issues</a>
 
 ## Testing that your change didn't break anything
 
